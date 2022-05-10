@@ -1,0 +1,21 @@
+/*
+ * main.c
+ *
+ *  Created on: May 10, 2022
+ *      Author: Lap Smart
+ */
+
+#include<avr/io.h>
+
+
+int main (void){
+
+	DDRA = 0xff ;
+	PORTA = 0xf0 ;
+
+	while(1){
+
+	}
+
+
+}
